@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
         <module name="config-server" />
         <module name="eurekaserver" />
         <module name="service-feign" />
@@ -16,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="eurekaserver" target="1.8" />

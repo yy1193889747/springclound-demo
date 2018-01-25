@@ -6,8 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
+          uri: https://github.com/yy1193889747/SpringcloudConfig/
           search-paths: respo
       label: master
 server:
   port: 8888
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
