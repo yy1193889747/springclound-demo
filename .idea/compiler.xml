@@ -8,10 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-client" />
         <module name="config-server" />
+        <module name="consul-miya" />
         <module name="eurekaserver" />
+        <module name="server-zipkin" />
         <module name="service-feign" />
         <module name="service-hi" />
+        <module name="service-hi (1)" />
         <module name="service-ribbon" />
+        <module name="service-turbine" />
         <module name="service-zuul" />
         <module name="springclounddemo" />
       </profile>
@@ -19,11 +23,15 @@
     <bytecodeTargetLevel>
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
+      <module name="consul-miya" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="eurekaserver" target="1.8" />
+      <module name="server-zipkin" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
+      <module name="service-hi (1)" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="service-turbine" target="1.8" />
       <module name="service-zuul" target="1.8" />
       <module name="springclounddemo" target="1.5" />
     </bytecodeTargetLevel>
