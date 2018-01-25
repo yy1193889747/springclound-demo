@@ -10,6 +10,7 @@
         <module name="service-feign" />
         <module name="service-hi" />
         <module name="service-ribbon" />
+        <module name="service-zuul" />
         <module name="springclounddemo" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
       <module name="springclounddemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
